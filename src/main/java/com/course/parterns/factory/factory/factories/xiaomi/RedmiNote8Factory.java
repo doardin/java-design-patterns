@@ -1,6 +1,6 @@
-package com.course.parterns.factory.factory.xiaomi;
+package com.course.parterns.factory.factory.factories.xiaomi;
 
-import com.course.parterns.factory.factory.DeviceFactory;
+import com.course.parterns.factory.factory.factories.DeviceFactory;
 import com.course.parterns.factory.model.Device;
 import com.course.parterns.factory.model.xiaomi.RedmiNote8;
 

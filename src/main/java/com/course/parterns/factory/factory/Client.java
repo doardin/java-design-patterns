@@ -1,9 +1,9 @@
 package com.course.parterns.factory.factory;
 
-import com.course.parterns.factory.factory.samsung.GalaxyA32Factory;
-import com.course.parterns.factory.factory.samsung.GalaxyA735GFactory;
-import com.course.parterns.factory.factory.xiaomi.RedmiNote11Factory;
-import com.course.parterns.factory.factory.xiaomi.RedmiNote8Factory;
+import com.course.parterns.factory.factory.factories.samsung.GalaxyA32Factory;
+import com.course.parterns.factory.factory.factories.samsung.GalaxyA735GFactory;
+import com.course.parterns.factory.factory.factories.xiaomi.RedmiNote11Factory;
+import com.course.parterns.factory.factory.factories.xiaomi.RedmiNote8Factory;
 import com.course.parterns.factory.model.samsung.GalaxyA32;
 import com.course.parterns.factory.model.samsung.GalaxyA735G;
 import com.course.parterns.factory.model.xiaomi.RedmiNote11;

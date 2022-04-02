@@ -1,6 +1,6 @@
-package com.course.parterns.factory.factory.samsung;
+package com.course.parterns.factory.factory.factories.samsung;
 
-import com.course.parterns.factory.factory.DeviceFactory;
+import com.course.parterns.factory.factory.factories.DeviceFactory;
 import com.course.parterns.factory.model.Device;
 import com.course.parterns.factory.model.samsung.GalaxyA32;
 
