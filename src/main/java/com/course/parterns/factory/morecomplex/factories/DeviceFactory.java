@@ -1,4 +1,4 @@
-package com.course.parterns.factory.factory.factories;
+package com.course.parterns.factory.morecomplex.factories;
 
 import com.course.parterns.factory.model.Device;
 

@@ -1,9 +1,9 @@
-package com.course.parterns.factory.factory;
+package com.course.parterns.factory.morecomplex;
 
-import com.course.parterns.factory.factory.factories.samsung.GalaxyA32Factory;
-import com.course.parterns.factory.factory.factories.samsung.GalaxyA735GFactory;
-import com.course.parterns.factory.factory.factories.xiaomi.RedmiNote11Factory;
-import com.course.parterns.factory.factory.factories.xiaomi.RedmiNote8Factory;
+import com.course.parterns.factory.morecomplex.factories.samsung.GalaxyA32Factory;
+import com.course.parterns.factory.morecomplex.factories.samsung.GalaxyA735GFactory;
+import com.course.parterns.factory.morecomplex.factories.xiaomi.RedmiNote11Factory;
+import com.course.parterns.factory.morecomplex.factories.xiaomi.RedmiNote8Factory;
 
 public class Client {
     public static void main(String[] args) {
