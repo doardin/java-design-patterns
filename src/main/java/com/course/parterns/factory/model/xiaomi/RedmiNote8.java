@@ -1,8 +1,17 @@
 package com.course.parterns.factory.model.xiaomi;
 
+import com.course.parterns.factory.abstractfactory.factories.countryrules.CountryRulesAbstractFactory;
 import com.course.parterns.factory.model.Device;
 
 public class RedmiNote8 extends Device {
+
+    public RedmiNote8(){
+
+    }
+
+    public RedmiNote8(CountryRulesAbstractFactory countryRulesAbstractFactory){
+        super(countryRulesAbstractFactory);
+    }
 
     @Override
     public void getHardware() {

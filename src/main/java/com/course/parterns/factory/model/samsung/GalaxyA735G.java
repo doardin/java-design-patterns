@@ -1,8 +1,17 @@
 package com.course.parterns.factory.model.samsung;
 
+import com.course.parterns.factory.abstractfactory.factories.countryrules.CountryRulesAbstractFactory;
 import com.course.parterns.factory.model.Device;
 
 public class GalaxyA735G extends Device {
+
+    public GalaxyA735G(){
+
+    }
+
+    public GalaxyA735G(CountryRulesAbstractFactory countryRulesAbstractFactory){
+        super(countryRulesAbstractFactory);
+    }
 
     @Override
     public void getHardware() {
