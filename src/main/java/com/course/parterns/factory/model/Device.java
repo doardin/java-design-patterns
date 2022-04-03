@@ -20,7 +20,6 @@ public abstract class Device {
 
     public void certificates(){
         System.out.println("Testing all certificates");
-        System.out.println(rules);
         if(rules != null) System.out.println(rules.getCertificates().applyCertification());
     }
 

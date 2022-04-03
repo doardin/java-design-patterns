@@ -6,7 +6,7 @@ import com.course.parterns.factory.model.Device;
 
 public abstract class DeviceFactory {
 
-    CountryRulesAbstractFactory rules;
+    public CountryRulesAbstractFactory rules;
 
     public DeviceFactory(CountryRulesAbstractFactory rules){
         this.rules = rules;

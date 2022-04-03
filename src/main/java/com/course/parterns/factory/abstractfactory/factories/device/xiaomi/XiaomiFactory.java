@@ -15,8 +15,8 @@ public class XiaomiFactory extends DeviceFactory {
 
     @Override
     public Device createDevice(String level) {
-        if(level.equals("standard")) return new RedmiNote8();
-        if(level.equals("high-end")) return new RedmiNote11();
+        if(level.equals("standard")) return new RedmiNote8(rules);
+        if(level.equals("high-end")) return new RedmiNote11(rules);
         return null;
     }
 

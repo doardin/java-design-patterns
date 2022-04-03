@@ -14,8 +14,8 @@ public class SamsungFactory extends DeviceFactory {
 
     @Override
     public Device createDevice(String level) {
-        if(level.equals("standard")) return new GalaxyA32();
-        if(level.equals("high-end")) return new GalaxyA735G();
+        if(level.equals("standard")) return new GalaxyA32(rules);
+        if(level.equals("high-end")) return new GalaxyA735G(rules);
         return null;
     }
 

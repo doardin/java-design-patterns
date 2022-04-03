@@ -1,6 +1,7 @@
 package com.course.parterns.factory.abstractfactory;
 
 import com.course.parterns.factory.abstractfactory.factories.countryrules.BrazillianRulesAbstractFactory;
+import com.course.parterns.factory.abstractfactory.factories.countryrules.CountryRulesAbstractFactory;
 import com.course.parterns.factory.abstractfactory.factories.countryrules.USRulesAbstractFactory;
 import com.course.parterns.factory.abstractfactory.factories.device.samsung.SamsungFactory;
 import com.course.parterns.factory.abstractfactory.factories.device.xiaomi.XiaomiFactory;
@@ -9,7 +10,7 @@ public class Client {
     public static void main(String[] args) {
 
         System.out.println("==== BR RULES ====");
-        BrazillianRulesAbstractFactory brazillianRulesAbstractFactory = new BrazillianRulesAbstractFactory();
+        CountryRulesAbstractFactory brazillianRulesAbstractFactory = new BrazillianRulesAbstractFactory();
         SamsungFactory brazilianSamsungFactory = new SamsungFactory(brazillianRulesAbstractFactory);
         brazilianSamsungFactory.orderDevice("standard");
         brazilianSamsungFactory.orderDevice("high-end");
@@ -22,7 +23,7 @@ public class Client {
 
         System.out.println("\n");
         System.out.println("==== US RULES ====");
-        USRulesAbstractFactory usRulesAbstractFactory = new USRulesAbstractFactory();
+        CountryRulesAbstractFactory usRulesAbstractFactory = new USRulesAbstractFactory();
         SamsungFactory usSamsungFactory = new SamsungFactory(usRulesAbstractFactory);
         usSamsungFactory.orderDevice("standard");
         System.out.println("\n");
