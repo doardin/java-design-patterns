@@ -1,22 +1,22 @@
-package com.course.parterns.singleton.conn;
+package com.course.parterns.monostate.conn;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ConnectionPool {
-    private static final ConnectionPool instance = new ConnectionPool();
     public final static int POOL_SIZE = 2;
-    private List<Connection> connectionsPool;
+    private static List<Connection> connectionsPool;
 
-    private ConnectionPool(){
-        connectionsPool = new ArrayList<Connection>();
+    static {
+        System.out.println("Creating Connection Pool");
+        connectionsPool = new ArrayList<>();
         for(int i = 0; i < POOL_SIZE; i++){
             connectionsPool.add(new Connection());
         }
     }
 
-    public static ConnectionPool getInstance(){
-        return instance;
+    public ConnectionPool(){
+        System.out.println("New instance of Connection Pool");
     }
 
     public Connection getConnection(){
@@ -39,5 +39,4 @@ public class ConnectionPool {
     public void leaveConnection(Connection conn){
         conn.setInUse(false);
     }
-
 }

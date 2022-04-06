@@ -1,11 +1,11 @@
-package com.course.parterns.singleton;
+package com.course.parterns.monostate;
 
-import com.course.parterns.singleton.conn.Connection;
-import com.course.parterns.singleton.conn.ConnectionPool;
+import com.course.parterns.monostate.conn.Connection;
+import com.course.parterns.monostate.conn.ConnectionPool;
 
 public class Client {
     public static void doQuery1(){
-        ConnectionPool pool = ConnectionPool.getInstance();
+        ConnectionPool pool = new ConnectionPool();
         Connection conn = pool.getConnection();
         if(conn != null){
             conn.query("SELECT * FROM A1");
@@ -14,7 +14,7 @@ public class Client {
     }
 
     public static void doQuery2(){
-        ConnectionPool pool = ConnectionPool.getInstance();
+        ConnectionPool pool = new ConnectionPool();
         Connection conn = pool.getConnection();
         if(conn != null){
             conn.query("SELECT * FROM A2");
@@ -23,7 +23,7 @@ public class Client {
     }
 
     public static void doQuery3(){
-        ConnectionPool pool = ConnectionPool.getInstance();
+        ConnectionPool pool = new ConnectionPool();
         Connection conn = pool.getConnection();
         if(conn != null){
             conn.query("SELECT * FROM A3");
