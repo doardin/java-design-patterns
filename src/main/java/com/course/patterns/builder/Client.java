@@ -1,11 +1,11 @@
 package com.course.patterns.builder;
 
 import com.course.patterns.builder.director.MealDirector;
-import com.course.patterns.builder.model.FastFoodMealBuilder;
-import com.course.patterns.builder.model.FatMealBuilder;
-import com.course.patterns.builder.model.JustFriesBuilder;
-import com.course.patterns.builder.model.Menu1Builder;
-import com.course.patterns.builder.model.Menu2Builder;
+import com.course.patterns.builder.model.builder.FastFoodMealBuilder;
+import com.course.patterns.builder.model.builder.FatMealBuilder;
+import com.course.patterns.builder.model.builder.JustFriesBuilder;
+import com.course.patterns.builder.model.builder.Menu1Builder;
+import com.course.patterns.builder.model.builder.Menu2Builder;
 
 public class Client {
 

@@ -1,4 +1,6 @@
-package com.course.patterns.builder.model;
+package com.course.patterns.builder.model.builder;
+
+import com.course.patterns.builder.model.FastFoodMeal;
 
 public abstract class FastFoodMealBuilder {
     protected FastFoodMeal meal;

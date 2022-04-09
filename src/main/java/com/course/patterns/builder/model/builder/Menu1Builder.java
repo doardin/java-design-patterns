@@ -1,4 +1,4 @@
-package com.course.patterns.builder.model;
+package com.course.patterns.builder.model.builder;
 
 public class Menu1Builder extends FastFoodMealBuilder {
 

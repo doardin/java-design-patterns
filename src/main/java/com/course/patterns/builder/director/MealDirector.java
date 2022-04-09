@@ -1,7 +1,7 @@
 package com.course.patterns.builder.director;
 
 import com.course.patterns.builder.model.FastFoodMeal;
-import com.course.patterns.builder.model.FastFoodMealBuilder;
+import com.course.patterns.builder.model.builder.FastFoodMealBuilder;
 
 public class MealDirector {
 
