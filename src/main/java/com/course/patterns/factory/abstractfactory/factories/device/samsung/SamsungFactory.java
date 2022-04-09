@@ -1,10 +1,10 @@
-package com.course.parterns.factory.abstractfactory.factories.device.samsung;
+package com.course.patterns.factory.abstractfactory.factories.device.samsung;
 
-import com.course.parterns.factory.abstractfactory.factories.countryrules.CountryRulesAbstractFactory;
-import com.course.parterns.factory.abstractfactory.factories.device.DeviceFactory;
-import com.course.parterns.factory.model.Device;
-import com.course.parterns.factory.model.samsung.GalaxyA32;
-import com.course.parterns.factory.model.samsung.GalaxyA735G;
+import com.course.patterns.factory.abstractfactory.factories.countryrules.CountryRulesAbstractFactory;
+import com.course.patterns.factory.abstractfactory.factories.device.DeviceFactory;
+import com.course.patterns.factory.model.Device;
+import com.course.patterns.factory.model.samsung.GalaxyA32;
+import com.course.patterns.factory.model.samsung.GalaxyA735G;
 
 public class SamsungFactory extends DeviceFactory {
 

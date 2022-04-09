@@ -1,6 +1,6 @@
-package com.course.parterns.factory.simple;
+package com.course.patterns.factory.simple;
 
-import com.course.parterns.factory.simple.factories.DeviceFactory;
+import com.course.patterns.factory.simple.factories.DeviceFactory;
 
 public class Client {
     public static void main(String[] args) {

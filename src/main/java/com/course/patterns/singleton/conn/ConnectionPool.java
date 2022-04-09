@@ -1,4 +1,4 @@
-package com.course.parterns.singleton.conn;
+package com.course.patterns.singleton.conn;
 
 import java.util.ArrayList;
 import java.util.List;

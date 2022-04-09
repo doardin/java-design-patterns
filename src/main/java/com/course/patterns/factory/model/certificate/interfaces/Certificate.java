@@ -1,4 +1,4 @@
-package com.course.parterns.factory.model.certificate.interfaces;
+package com.course.patterns.factory.model.certificate.interfaces;
 
 public interface Certificate {
     String applyCertification();

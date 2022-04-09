@@ -1,7 +1,7 @@
-package com.course.parterns.factory.halfsimple;
+package com.course.patterns.factory.halfsimple;
 
-import com.course.parterns.factory.halfsimple.factories.samsung.SamsungFactory;
-import com.course.parterns.factory.halfsimple.factories.xiaomi.XiaomiFactory;
+import com.course.patterns.factory.halfsimple.factories.samsung.SamsungFactory;
+import com.course.patterns.factory.halfsimple.factories.xiaomi.XiaomiFactory;
 
 public class Client {
     public static void main(String[] args) {

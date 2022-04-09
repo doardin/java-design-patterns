@@ -1,4 +1,4 @@
-package com.course.parterns.monostate.conn;
+package com.course.patterns.monostate.conn;
 
 import java.util.ArrayList;
 import java.util.List;

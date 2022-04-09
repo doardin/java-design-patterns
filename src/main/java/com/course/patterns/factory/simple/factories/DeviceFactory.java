@@ -1,10 +1,10 @@
-package com.course.parterns.factory.simple.factories;
+package com.course.patterns.factory.simple.factories;
 
-import com.course.parterns.factory.model.Device;
-import com.course.parterns.factory.model.samsung.GalaxyA32;
-import com.course.parterns.factory.model.samsung.GalaxyA735G;
-import com.course.parterns.factory.model.xiaomi.RedmiNote11;
-import com.course.parterns.factory.model.xiaomi.RedmiNote8;
+import com.course.patterns.factory.model.Device;
+import com.course.patterns.factory.model.samsung.GalaxyA32;
+import com.course.patterns.factory.model.samsung.GalaxyA735G;
+import com.course.patterns.factory.model.xiaomi.RedmiNote11;
+import com.course.patterns.factory.model.xiaomi.RedmiNote8;
 
 public class DeviceFactory {
 

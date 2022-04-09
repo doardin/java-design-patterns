@@ -1,6 +1,6 @@
-package com.course.parterns.factory.model.certificate;
+package com.course.patterns.factory.model.certificate;
 
-import com.course.parterns.factory.model.certificate.interfaces.Certificate;
+import com.course.patterns.factory.model.certificate.interfaces.Certificate;
 
 public class BrazillianCertificate implements Certificate {
 

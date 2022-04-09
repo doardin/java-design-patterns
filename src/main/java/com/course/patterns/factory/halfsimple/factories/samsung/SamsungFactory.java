@@ -1,9 +1,9 @@
-package com.course.parterns.factory.halfsimple.factories.samsung;
+package com.course.patterns.factory.halfsimple.factories.samsung;
 
-import com.course.parterns.factory.halfsimple.factories.DeviceFactory;
-import com.course.parterns.factory.model.Device;
-import com.course.parterns.factory.model.samsung.GalaxyA32;
-import com.course.parterns.factory.model.samsung.GalaxyA735G;
+import com.course.patterns.factory.halfsimple.factories.DeviceFactory;
+import com.course.patterns.factory.model.Device;
+import com.course.patterns.factory.model.samsung.GalaxyA32;
+import com.course.patterns.factory.model.samsung.GalaxyA735G;
 
 public class SamsungFactory extends DeviceFactory {
 

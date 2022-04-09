@@ -1,7 +1,7 @@
-package com.course.parterns.monostate;
+package com.course.patterns.monostate;
 
-import com.course.parterns.monostate.conn.Connection;
-import com.course.parterns.monostate.conn.ConnectionPool;
+import com.course.patterns.monostate.conn.Connection;
+import com.course.patterns.monostate.conn.ConnectionPool;
 
 public class Client {
     public static void doQuery1(){

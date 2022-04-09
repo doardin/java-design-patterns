@@ -1,6 +1,6 @@
-package com.course.parterns.factory.model.packing;
+package com.course.patterns.factory.model.packing;
 
-import com.course.parterns.factory.model.packing.interfaces.Packing;
+import com.course.patterns.factory.model.packing.interfaces.Packing;
 
 public class USPacking implements Packing {
 

@@ -1,10 +1,10 @@
-package com.course.parterns.factory.abstractfactory;
+package com.course.patterns.factory.abstractfactory;
 
-import com.course.parterns.factory.abstractfactory.factories.countryrules.BrazillianRulesAbstractFactory;
-import com.course.parterns.factory.abstractfactory.factories.countryrules.CountryRulesAbstractFactory;
-import com.course.parterns.factory.abstractfactory.factories.countryrules.USRulesAbstractFactory;
-import com.course.parterns.factory.abstractfactory.factories.device.samsung.SamsungFactory;
-import com.course.parterns.factory.abstractfactory.factories.device.xiaomi.XiaomiFactory;
+import com.course.patterns.factory.abstractfactory.factories.countryrules.BrazillianRulesAbstractFactory;
+import com.course.patterns.factory.abstractfactory.factories.countryrules.CountryRulesAbstractFactory;
+import com.course.patterns.factory.abstractfactory.factories.countryrules.USRulesAbstractFactory;
+import com.course.patterns.factory.abstractfactory.factories.device.samsung.SamsungFactory;
+import com.course.patterns.factory.abstractfactory.factories.device.xiaomi.XiaomiFactory;
 
 public class Client {
     public static void main(String[] args) {

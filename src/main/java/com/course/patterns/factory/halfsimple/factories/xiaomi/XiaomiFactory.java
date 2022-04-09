@@ -1,9 +1,9 @@
-package com.course.parterns.factory.halfsimple.factories.xiaomi;
+package com.course.patterns.factory.halfsimple.factories.xiaomi;
 
-import com.course.parterns.factory.halfsimple.factories.DeviceFactory;
-import com.course.parterns.factory.model.Device;
-import com.course.parterns.factory.model.xiaomi.RedmiNote11;
-import com.course.parterns.factory.model.xiaomi.RedmiNote8;
+import com.course.patterns.factory.halfsimple.factories.DeviceFactory;
+import com.course.patterns.factory.model.Device;
+import com.course.patterns.factory.model.xiaomi.RedmiNote11;
+import com.course.patterns.factory.model.xiaomi.RedmiNote8;
 
 public class XiaomiFactory extends DeviceFactory {
 

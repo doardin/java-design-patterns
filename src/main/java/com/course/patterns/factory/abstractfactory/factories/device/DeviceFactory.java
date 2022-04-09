@@ -1,7 +1,7 @@
-package com.course.parterns.factory.abstractfactory.factories.device;
+package com.course.patterns.factory.abstractfactory.factories.device;
 
-import com.course.parterns.factory.abstractfactory.factories.countryrules.CountryRulesAbstractFactory;
-import com.course.parterns.factory.model.Device;
+import com.course.patterns.factory.abstractfactory.factories.countryrules.CountryRulesAbstractFactory;
+import com.course.patterns.factory.model.Device;
 
 
 public abstract class DeviceFactory {

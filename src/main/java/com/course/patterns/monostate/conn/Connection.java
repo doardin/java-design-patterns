@@ -1,4 +1,4 @@
-package com.course.parterns.monostate.conn;
+package com.course.patterns.monostate.conn;
 
 public class Connection {
     private Boolean inUse;

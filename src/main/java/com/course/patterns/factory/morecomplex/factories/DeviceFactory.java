@@ -1,6 +1,6 @@
-package com.course.parterns.factory.morecomplex.factories;
+package com.course.patterns.factory.morecomplex.factories;
 
-import com.course.parterns.factory.model.Device;
+import com.course.patterns.factory.model.Device;
 
 public abstract class DeviceFactory {
 

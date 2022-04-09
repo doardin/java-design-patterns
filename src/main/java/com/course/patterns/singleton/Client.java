@@ -1,7 +1,7 @@
-package com.course.parterns.singleton;
+package com.course.patterns.singleton;
 
-import com.course.parterns.singleton.conn.Connection;
-import com.course.parterns.singleton.conn.ConnectionPool;
+import com.course.patterns.singleton.conn.Connection;
+import com.course.patterns.singleton.conn.ConnectionPool;
 
 public class Client {
     public static void doQuery1(){
